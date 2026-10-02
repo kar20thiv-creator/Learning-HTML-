@@ -1,0 +1,112 @@
+﻿<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<title>Event Registration Form</title>
+	<style>
+	   /* .centered{
+		text-align:center;
+		font-weight:bold;
+		color:blue;
+		}
+	*/
+	</style>
+</head>
+
+<body>
+
+   <header>
+	<h1>Student Event Registration Form </h1>
+	<p>Please fill your details below: </p>
+   </header>
+   
+   <nav>
+	<a href="#">Home</a>|
+	<a href="#">About</a>|
+   </nav>
+
+<form method="POST" action="/process">
+<label for='nm'><b> Student Name: </b></label>
+<input type='text' name='name1' id='nm' placeholder='Eg: Rajesh' pattern="[A-Za-z]+" title="Only Enter Alphabets"><br><br>
+
+<label for='regis'><b>Register Number: </b></label>
+<input id='regis' type='text' value='26......' name='regis' size=20px ><br><br>
+
+
+<B>Gender:</B>
+<input type='radio' value='male' name='g' size=10px id='male'>
+<label for='male'>Male</label>
+<input type='radio' value='fema' name='g' size=10px id='fema'>
+<label for='fema'>Female</label><br><br>
+
+<b>Depatment</b> 
+<select name="department">
+<Option value = "it"> IT</option>
+<Option value = "csc"> CS</option>
+<Option value = "eee"> EEE</option>
+</select><br><br>
+
+<b>Hobbies:</b>
+<input type="checkbox" value="reading" id="reading" name="hobby" >
+<label for="reading">Reading</label>
+
+<input type="checkbox" value="sports" id="sport" name="hobby">
+<label for="sport">Sports</label>
+
+<input type="checkbox" id="music" value="music" name"hobby" >
+<label for="music">Music</label><br><br>
+
+<figure>
+<img src="C:\Users\Kar20\Downloads\6152440158335208851.jpg" alt="An Image" width="300">
+<figcaption class="centered">Fig:1</figcaption>
+</figure>
+
+<label for="pwd"><b>Password: </b></label>
+<input type="password" name="password" id="pwd"><br><br>
+
+<b>Choose T-Shirt Color:</b>
+<input type="color" name="shirtcolor"><br><br>
+
+<b>Age:</b>
+<input type="number" name="Age" min="17" max="40"><br><br>
+
+<b>Event Date:</b>
+<input type="date" name="date"><br><br>
+
+<b>Interest Level</b>
+<input type="range" name="interest" min="1" max="10"><br><br>
+
+<b>Preferrred Time</b>
+<input type="time" name="time"><br><br>
+
+<b>Preferred Month</b>
+<input type="month" name="month"><br><br>
+
+<b>Meeting Date and Time</b>s
+<input type="datetime-local" name="meeting"><br><br>
+
+<b>Email:</b>
+<input type="email" name="email" required><br><br>
+
+<b>Portfolio Website: </b>
+<input type="url" name="web_url"><br><br>
+
+<b>Upload Resume:</b>
+<input type="file" name="resume"><br><br>
+
+
+<button type="submit">Register</button>
+<button type="reset" name="reset">Reset</button><br><br>
+
+<aside>
+<i>The not important directly stuff: Hola mon amie!</i>
+
+<footer>
+<p>Our Email:heloo34@outlook.com</p>
+</footer>
+
+</form>
+
+</body>
+
+</html>
